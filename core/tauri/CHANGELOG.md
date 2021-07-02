@@ -1,5 +1,14 @@
 # Changelog
 
+## \[1.0.0-beta.5]
+
+- Fixes SVG loading on custom protocol.
+  - [e663bdd5](https://www.github.com/tauri-apps/tauri/commit/e663bdd5938830ab4eba961e69c3985191b499dd) fix(core): svg mime type ([#2129](https://www.github.com/tauri-apps/tauri/pull/2129)) on 2021-06-30
+- Inject invoke key on `script` tags with `type="module"`.
+  - [f03eea9c](https://www.github.com/tauri-apps/tauri/commit/f03eea9c9b964709532afbc4d1dd343b3fd96081) feat(core): inject invoke key on `<script type="module">` ([#2120](https://www.github.com/tauri-apps/tauri/pull/2120)) on 2021-06-29
+- Fix macOS high CPU usage.
+  - [a280ee90](https://www.github.com/tauri-apps/tauri/commit/a280ee90af0749ce18d6d0b00939b06473717bc9) Fix high cpu usage on mac, fix [#2074](https://www.github.com/tauri-apps/tauri/pull/2074) ([#2125](https://www.github.com/tauri-apps/tauri/pull/2125)) on 2021-06-30
+
 ## \[1.0.0-beta.4]
 
 - Double clicking a `data-tauri-drag-region` element will toggle the window maximized state.

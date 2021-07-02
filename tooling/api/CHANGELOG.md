@@ -1,5 +1,10 @@
 # Changelog
 
+## \[1.0.0-beta.5]
+
+- Adds `convertFileSrc` helper to the `tauri` module, simplifying the process of using file paths as webview source (`img`, `video`, etc).
+  - [51a5cfe4](https://www.github.com/tauri-apps/tauri/commit/51a5cfe4b5e9890fb6f639c9c929657fd747a595) feat(api): add `convertFileSrc` helper ([#2138](https://www.github.com/tauri-apps/tauri/pull/2138)) on 2021-07-02
+
 ## \[1.0.0-beta.4]
 
 - Add asset custom protocol to access local file system.
